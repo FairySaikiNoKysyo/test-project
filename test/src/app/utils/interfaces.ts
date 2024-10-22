@@ -24,4 +24,8 @@ export interface VehicleMake {
         year: string;
     }>;
 }
+
+export interface ErrorMessageProps {
+    error: Error | null;
+  }
   

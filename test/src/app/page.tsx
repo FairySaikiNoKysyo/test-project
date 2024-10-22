@@ -75,7 +75,7 @@ export default function Home() {
       <Link href={`/results/${selectedMake}/${selectedYear}`}>
         <button
           disabled={!isButtonEnabled}
-          className={`w-full py-2 px-4 bg-blue-500 text-white rounded-md ${
+          className={`w-full py-2 px-4 bg-black text-white rounded-md ${
             !isButtonEnabled ? 'opacity-50 cursor-not-allowed' : ''
           }`}
         >
