@@ -4,8 +4,8 @@ export default function Loading() {
             <div className="loader"></div>
             <style jsx>{`
                 .loader {
-                    border: 8px solid #f3f3f3; /* Light grey */
-                    border-top: 8px solid #3498db; /* Blue */
+                    border: 8px solid #f3f3f3;
+                    border-top: 8px solid #3498db;
                     border-radius: 50%;
                     width: 50px;
                     height: 50px;

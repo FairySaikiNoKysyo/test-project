@@ -4,10 +4,10 @@ export interface VehicleMake {
   }
   
   export interface VehicleModel {
-    Make_ID: number; // або можете змінити на MakeId, якщо використовуєте camelCase
-    Make_Name: string; // або MakeName
-    Model_ID: number; // або ModelId
-    Model_Name: string; // або ModelName
+    Make_ID: number; 
+    Make_Name: string;
+    Model_ID: number;
+    Model_Name: string; 
 }
   
  export interface MakesResponse {

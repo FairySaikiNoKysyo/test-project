@@ -51,7 +51,6 @@ export default function Home() {
         </select>
       </div>
 
-      {/* Випадаючий список для вибору року */}
       <div className="mb-4">
         <label htmlFor="year" className="block text-sm font-medium text-gray-700 mb-2">
           Select Model Year
@@ -71,7 +70,6 @@ export default function Home() {
         </select>
       </div>
 
-      {/* Кнопка переходу на сторінку результатів */}
       <Link href={`/results/${selectedMake}/${selectedYear}`}>
         <button
           disabled={!isButtonEnabled}
