@@ -18,3 +18,5 @@ When cloned repository and   opened app - run your terminal with commands:
 1. cd/test  - spend to files of project.
 2. yarn - to install dependencies.
 3. yarn dev - run project in dev mode.
+
+also, to have access to env variables, create an env file in which the initial domain of the used API was inserted
