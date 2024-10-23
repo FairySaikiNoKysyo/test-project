@@ -15,7 +15,7 @@ Prettier: A code formatter to ensure a consistent style across the codebase.
 
 Getting Started:
 When cloned repository and   opened app - run your terminal with commands: 
-1. cd/test  - spend to files of project.
+1. cd test  - spend to file of project.
 2. yarn - to install dependencies.
 3. yarn dev - run project in dev mode.
 
